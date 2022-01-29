@@ -55,6 +55,7 @@ function setImage(){
         document.getElementById('imageText').innerHTML="Good Night";}
     
     makeDiv();
+    document.getElementById('submitBtn').style.display="none";
 }
 function makeDiv(){
     var container=document.createElement('div');
